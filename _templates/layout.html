@@ -1,0 +1,13 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for Fire TV registration guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="SfOIuzL9bJTnG1s15n1tw8mrW8WlYZXf4LA0cdqffuM" />
+    <meta name="msvalidate.01" content="671DFC03B959E91643B7D7567E37E46A" />
+    <meta name="description" content="Register your Fire TV using amazon.com/code. Learn how to enter the device code, activate your Amazon account, and unlock streaming apps, Alexa voice control, and personalized settings." />
+    <meta name="keywords" content="amazon.com/code, amazon.com/activate, Fire TV registration, Fire TV device code, Amazon device setup" />
+    <meta name="robots" content="index, follow" />
+    <title>Register Your Fire TV at amazon.com/code – Step-by-Step Activation Guide</title>
+    {{ super() }}
+{% endblock %}
